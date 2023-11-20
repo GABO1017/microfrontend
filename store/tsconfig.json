@@ -1,11 +1,10 @@
 {
   "extends": "ts-config-single-spa",
+  "files": ["src/Renthub-store.ts"],
   "compilerOptions": {
-    "jsx": "react-jsx",
     "declarationDir": "dist",
-    "typeRoots": ["./types", "./node_modules/@types"]
+    "target": "ES6"
   },
-  "files": ["src/Renthub-react.tsx"],
   "include": ["src/**/*"],
   "exclude": ["src/**/*.test*"]
 }
