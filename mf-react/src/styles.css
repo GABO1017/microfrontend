@@ -1,0 +1,55 @@
+.navbar-container {
+    width: 100%;
+    height: 10vh;
+    background-color: lavender;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  
+ 
+  .color {
+    display: flex;
+    justify-content: center;
+    padding: 3vh;
+  }
+  
+  .nav-link {
+    margin: 0 10vh; 
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 30px;
+  }
+
+  .todo-list-container {
+    width: 60vh;
+    margin: auto; 
+    margin-top: 12vh; 
+    
+  }
+  
+  .todo-list {
+    list-style: none;
+    padding: 0;
+    background-color: azure;
+  }
+  
+  .todo-list li {
+    background-color: #f0f0f0;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+  }
+
+  .todo-list button {
+    background-color: rgb(242, 69, 69);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }

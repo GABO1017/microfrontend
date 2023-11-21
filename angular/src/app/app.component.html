@@ -1,6 +1,17 @@
-<h1>Angular</h1>
 
-<form [formGroup]="form" (ngSubmit)="onSubmit()">
-  <input type="text" formControlName="title"/>
-  <button type="submit">Send</button>
-</form>
+<div [ngStyle]="navbarContainer">
+  <div [ngStyle]="color">
+    <a href="/" [ngStyle]="navLink">Angular Form</a>
+    <a href="/react" [ngStyle]="navLink">React List</a>
+  </div>
+</div>
+
+<div [ngStyle]="container">
+  <div [ngStyle]="centeredDiv">
+    <h1 [ngStyle]="{'font-size': '30px'}">To Do</h1>
+    <form [formGroup]="form" (ngSubmit)="onSubmit()" [ngStyle]="{'text-align': 'center'}">
+        <input type="text" formControlName="title" [ngStyle]="inputStyles"/>
+        <button type="submit" [ngStyle]="buttonStyles">Send</button>
+    </form>
+  </div>
+</div>
