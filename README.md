@@ -14,41 +14,67 @@ Para ejecutar la aplicación, sigue estos pasos:
 
 - Vamos a ejecutar en cada una de ellas los siguentes comandos sin cerrar ninguna de las terminales.
 
-1. Para la primera terminal vamos a ejecutar:
+**1. Para la primera terminal vamos a ejecutar:**
 
-'''cd angular'''
+```
+cd angular
+```
 
-'''npm install'''
+```
+npm install
+```
 
-'''npm start'''
+```
+npm start
+```
 
-2. Para la segunda terminal vamos a ejecutar:
+**2. Para la segunda terminal vamos a ejecutar:**
 
-'''cd mf-react'''
+```
+cd mf-react
+```
 
-'''npm install'''
+```
+npm install
+```
 
-'''npm start'''
+```
+npm start
+```
 
-3. Para la tercera terminal vamos a ejecutar: 
+**3. Para la tercera terminal vamos a ejecutar: **
 
-'''cd root'''
+```
+cd root
+```
 
-'''npm install'''
+```
+npm install
+```
 
-'''npm start'''
+```
+npm start
+```
 
-4. Para la cuarta ejecutamos:
+**4. Para la cuarta ejecutamos:**
 
-'''cd store'''
+```
+cd store
+```
 
-'''npm install'''
+```
+npm install
+```
 
-'''npm start'''
+```
+npm start
+```
 
 # Nota
 
 Si por alguna razon al ejecutar el comando "npm install" sale el error ".git can't be found", ejecutamos el comando y seguimos con las instrucciones:
 
-"""git init"""
+```
+git init
+```
 
